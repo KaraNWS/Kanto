@@ -1,0 +1,115 @@
+:root {
+    --baseColor: #f5f5f5;
+    --backgroundColor: #ffffff;
+    --fontcolor: #1f1f1f;
+    --linecolor: #818181;
+    --greycolor: #e5e5e5;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: var(--basecolor);
+    width: 100%;
+    height: auto;
+    color: var(--font-color);
+}
+
+h3 {
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: 2;
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.CV {
+    max-width: 800px;
+    margin: 2rem auto;
+    background: var(--backgroundColor);
+    padding: 2rem 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nom {
+    letter-spacing: 2;
+    text-transform: uppercase;
+    padding-top: 0,5rem;
+    text-align: center;
+}
+
+.statut{
+    letter-spacing: 1;
+    padding-bottom: 0,5rem;
+}
+
+hr {
+    margin: 1rem 2rem;
+    width: 90%;
+    border: 1px solid var(--linecolor);
+    background-color: var(--linecolor);
+}
+
+.coordonnées ul li {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+}
+
+.corps-cv {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.gauche {
+    padding: 0 1rem;
+    text-align: right;
+    border-right: 2px solid var(--linecolor);
+}
+
+.catégorie {
+    padding: 0,5rem 1rem;
+}
+
+.coordonnées {
+    padding: 0,5rem 0;
+}
+
+.contact-infos {
+    font-size: 14px;
+}
+
+.liste-expériences {
+    padding: 0,5rem 0;
+}
+
+20,25
